@@ -1,0 +1,181 @@
+body.light-mode {
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 0.993) 30%,
+    rgb(175, 175, 175) 70%
+  );
+}
+
+/* ?MENU DE NAVEGAÇÃO */
+body.light-mode header {
+  background-color: transparent;
+}
+
+/* ?NOME */
+body.light-mode .banner span {
+  color: #005a92 !important;
+}
+
+body.light-mode .banner P {
+  color: #000000 !important;
+}
+
+/* ?AVATAR */
+body.light-mode .profile-light img {
+  display: unset;
+  max-width: 100%;
+max-height: 500px;
+  /* width: 287px !important; */
+}
+/* ?AVATAR */
+body.light-mode .profile .profile-light {
+
+  display: unset;
+  visibility: visible;
+}
+
+body.light-mode .profile img {
+  display: none;
+}
+
+/* ?FUNDO SOBRE MIM E HABILIDADES */
+body.light-mode .about {
+  background: transparent;
+  border: 1px solid rgba(231, 231, 231, 0.979);
+}
+
+body.light-mode .about p {
+  color: #000000 !important;
+}
+
+body.light-mode .banner .actions a:nth-child(2) {
+  color: #ececfb !important;
+}
+
+body.light-mode .banner .actions a:nth-child(2):hover {
+  color: #f9f9f9 !important;
+}
+
+body.light-mode h2,
+body.light-mode h3 {
+  color: #10364d !important;
+}
+
+/* ? CONTATOS */
+body.light-mode .contacts p {
+  color: #000000 !important;
+}
+
+body.light-mode .modal h2 {
+  color: #10364d !important;
+}
+
+body.light-mode .menuOpen h2 {
+  color: #f9f9f9 !important;
+}
+
+body.light-mode section#skills .skills .container .cards .box {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.507) 0.2%,
+    rgba(202, 202, 202, 0.61) 100%
+  ) !important;
+  border: 1px solid rgb(173, 173, 173);
+  box-shadow: 0 1px 22px rgba(0, 0, 0, 0.24);
+}
+
+body.light-mode section#skills .skills .container .cards .box:hover {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.486);
+}
+
+body.light-mode section#skills .skills .container .cards .box p {
+  color: #000000;
+}
+
+/* ?BARRA DE NAVEGAÇÃO */
+body.light-mode::-webkit-scrollbar-track {
+  background: #e9e9e9e0;
+}
+
+body.light-mode::-webkit-scrollbar-thumb {
+  background: #7a7a7a;
+}
+
+
+
+@media (max-width: 980px) {
+  body.light-mode section#sobre .banner .profile-light {
+    text-align: center;
+    width: 60% !important;
+  }
+
+  body.light-mode .profile .profile-light {
+    width: 40%;
+  }
+}
+
+body.light-mode section#contacts .contacts .icons .icon .box {
+  background-color: #696969c2;
+}
+
+/*!Ajustar o tamanho do card - projetos*/
+body.light-mode section#projects .container .cards-projects .box {
+  border: none;
+  box-shadow: 0px 1px 30px #fffcfc71;
+}
+
+/*! ajuste do tamanho dos projetos quando clicado */
+body.light-mode section#projects .container .cards-projects .box:hover {
+  box-shadow: 0px 1px 20px #6e6e6e;
+  border: none;
+}
+
+body.light-mode .modal .top .info p {
+  color: #070707;
+}
+
+body.light-mode .cd-timeline-content {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.507) 0.2%,
+    rgba(202, 202, 202, 0.61) 100%
+  ) !important;
+  border: 1px solid rgb(173, 173, 173);
+  box-shadow: 0 1px 22px rgba(0, 0, 0, 0.432);
+}
+
+body.light-mode .cd-timeline-content:hover {
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.568);
+}
+
+body.light-mode .cd-timeline-content p {
+  color: #000000;
+}
+
+body.light-mode .cd-timeline-content h4 {
+  color: #10364d;
+}
+
+body.light-mode .links a {
+  background-image: linear-gradient(
+    90deg,
+    #424242 30%,
+
+    #686868 70%
+  );
+}
+
+body.light-mode .links a:hover {
+  background: rgba(67, 68, 67, 0.8);
+  transition: 2s;
+}
+
+/* *Tamanho global */
+
+body.light-mode ::-webkit-scrollbar-track {
+  background: #c5c4c4ce;
+}
+
+body.light-mode ::-webkit-scrollbar-thumb {
+  background: #2b2b2ba4;
+}
